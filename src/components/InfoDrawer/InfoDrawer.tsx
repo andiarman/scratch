@@ -12,7 +12,7 @@ export default function InfoDrawer() {
   const { drawerOpen, drawerMode, selectedMarker, closeDrawer } = useUIStore();
   const {
     straightDistance, routeDistance, routeDuration, isRoutingLoading,
-    pointA, pointB, markerA, markerB, routeGeometry, measureState, resetMeasure,
+    markerA, markerB, routeGeometry, measureState, resetMeasure,
   } = useToolStore();
   const { addMeasurementLayer } = useLayerStore();
   const { startAnalysis, setResults, setError } = useAnalysisStore();

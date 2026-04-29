@@ -1,4 +1,3 @@
-import { queryOverpass } from './overpass';
 import type { BBox } from '../types';
 import type { AdminArea } from '../stores/analysisStore';
 

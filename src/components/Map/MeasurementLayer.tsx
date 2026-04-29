@@ -1,6 +1,6 @@
 import { GeoJSON, CircleMarker, Polyline, Tooltip } from 'react-leaflet';
 import type { MapLayer } from '../../types';
-import { formatDistance } from '../../utils/format';
+
 
 interface Props {
   layer: MapLayer;
